@@ -41,7 +41,7 @@ function myname()
     return false;
   }
   if (name.length < 1) {
-    document.getElementById("namemsg").innerHTML = "enter name";
+    document.getElementById("namemsg").innerHTML = "!!!!!Enter name";
     return false;
   }
   if (name.match(regx) === null) {
@@ -55,7 +55,7 @@ function myname()
 
   if (temp.length < 4 && temp1.length < 4) {
 
-    document.getElementById("namemsg").innerHTML = " Min 4 chars are allowed";
+    document.getElementById("namemsg").innerHTML = " Min 4 chars are allowed in each word";
     return false;
   }
   return true;
