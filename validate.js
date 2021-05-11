@@ -67,7 +67,7 @@ function myname()
 //mail validation
 function mymail(){
   var mailid = document.getElementById("email_id").value;
-  var emailFormat = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[_a-z0-9-]+)$/;
+  var emailFormat = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
   if (mailid == "") {
     document.getElementById("email_message").innerHTML = "please enter email"
     //alert("Enter email Field");
